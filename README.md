@@ -4,9 +4,9 @@
   <img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python">
   <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas">
   <img src="https://img.shields.io/badge/NumPy-Scientific%20Computing-013243?style=for-the-badge&logo=numpy">
-  <img src="https://img.shields.io/badge/Seaborn-Visualization-0C7BDC?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Seaborn-Data%20Visualization-0C7BDC?style=for-the-badge">
   <img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn">
-  <img src="https://img.shields.io/badge/Statsmodels-Statistics-green?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -18,37 +18,39 @@
 
 ---
 
-## 🎯 Project Overview
+# 🎯 Project Overview
 
-Marketing teams invest heavily in advertising campaigns, but an important question remains:
+Marketing teams spend significant amounts on online advertising, but an important business question remains:
 
 > Do more clicks actually lead to more conversions?
 
-This project analyses Facebook and AdWords campaign performance using Python, Statistics, and Machine Learning techniques to uncover trends, compare campaign effectiveness, evaluate advertising costs, and predict conversions.
+This project analyses Facebook and AdWords advertising campaigns using Python, Statistics, and Machine Learning techniques to evaluate campaign effectiveness, identify conversion trends, analyse advertising costs, and predict future conversions.
 
 The project combines:
 
 ✅ Exploratory Data Analysis (EDA)
 
-✅ Statistical Hypothesis Testing
+✅ Statistical Testing
 
 ✅ Correlation Analysis
+
+✅ Conversion Category Analysis
 
 ✅ Time-Series Trend Analysis
 
 ✅ Linear Regression Modelling
 
-✅ Business Insights Generation
+✅ Business Insight Generation
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 | Category | Tools |
-|----------|--------|
-| Language | Python |
+|-----------|--------|
+| Programming Language | Python |
 | Data Analysis | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
+| Data Visualization | Matplotlib, Seaborn |
 | Statistics | SciPy, Statsmodels |
 | Machine Learning | Scikit-Learn |
 | Environment | Jupyter Notebook |
@@ -56,7 +58,7 @@ The project combines:
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 marketing-campaign-analysis-python/
@@ -84,183 +86,277 @@ marketing-campaign-analysis-python/
 
 ---
 
-## 📊 Business Questions Answered
+# 📊 Business Questions Answered
 
-### 1️⃣ How are Facebook and AdWords campaigns performing?
+### 1. How are Facebook and AdWords campaigns performing?
 
-- Compared click behaviour
-- Compared conversion behaviour
-- Analysed campaign effectiveness
+- Compared click behaviour across campaigns
+- Compared conversion performance
+- Evaluated campaign effectiveness
 
-### 2️⃣ Do more clicks generate more conversions?
+### 2. Do more clicks lead to more conversions?
 
 - Scatter Plot Analysis
 - Correlation Analysis
 - Linear Regression Modelling
 
-### 3️⃣ Which conversion categories occur most frequently?
+### 3. Which conversion categories occur most frequently?
 
 - Low Conversion Days
 - Medium Conversion Days
 - High Conversion Days
 
-### 4️⃣ What days generate maximum conversions?
+### 4. Which days generate the highest conversions?
 
-- Weekly Trend Analysis
+- Weekly Conversion Trend Analysis
 
-### 5️⃣ Which months perform best?
+### 5. Which months perform best?
 
 - Monthly Conversion Analysis
 
-### 6️⃣ Is advertising cost impacting conversions?
+### 6. Is advertising cost affecting conversions?
 
 - Cost Per Conversion Analysis
 - Cointegration Testing
 
 ---
 
+# 📈 Visualisations
+
 ## Facebook Click & Conversion Distribution
 
 <p align="center">
-  <img src="./images/facebook_ad_histograms.png" width="800">
+  <img src="./images/facebook_ad_histograms.png" width="900">
 </p>
+
+---
 
 ## AdWords Click & Conversion Distribution
 
 <p align="center">
-  <img src="./images/adwords_ad_histograms.png" width="800">
+  <img src="./images/adwords_ad_histograms.png" width="900">
 </p>
+
+---
 
 ## Conversion Category Comparison
 
 <p align="center">
-  <img src="./images/conversion_category_frequency.png" width="800">
+  <img src="./images/conversion_category_frequency.png" width="900">
 </p>
+
+---
 
 ## Clicks vs Conversions
 
 <p align="center">
-  <img src="./images/clicks_vs_conversions_scatter.png" width="800">
+  <img src="./images/clicks_vs_conversions_scatter.png" width="900">
 </p>
+
+---
 
 ## Weekly Conversion Trend
 
 <p align="center">
-  <img src="./images/weekly_conversions.png" width="800">
+  <img src="./images/weekly_conversions.png" width="900">
 </p>
+
+---
 
 ## Monthly Conversion Trend
 
 <p align="center">
-  <img src="./images/monthly_conversions.png" width="800">
+  <img src="./images/monthly_conversions.png" width="900">
 </p>
+
+---
 
 ## Monthly Cost Per Conversion
 
 <p align="center">
-  <img src="./images/monthly_cost_per_conversion.png" width="800">
+  <img src="./images/monthly_cost_per_conversion.png" width="900">
 </p>
+
+---
 
 ## Linear Regression Model
 
 <p align="center">
-  <img src="./images/facebook_clicks_vs_conversions_regression.png" width="800">
+  <img src="./images/facebook_clicks_vs_conversions_regression.png" width="900">
 </p>
 
 ---
 
 # 📊 Statistical Analysis
 
-### Correlation Analysis
+## Correlation Analysis
 
 Measured the relationship between:
 
-- Facebook Clicks vs Conversions
-- AdWords Clicks vs Conversions
+- Facebook Ad Clicks and Conversions
+- AdWords Clicks and Conversions
 
-### Independent T-Test
+Purpose:
 
-Used to determine whether the average conversions between campaigns differ significantly.
+- Understand whether increasing clicks leads to higher conversions.
 
-### Cointegration Test
+---
 
-Used to examine long-term equilibrium relationships between:
+## Independent T-Test
+
+Used to determine whether the average conversions generated by Facebook and AdWords campaigns differ significantly.
+
+Purpose:
+
+- Compare campaign performance statistically.
+
+---
+
+## Cointegration Test
+
+Used to analyse the long-term relationship between:
 
 - Advertising Cost
 - Conversion Performance
+
+Purpose:
+
+- Determine whether advertising spend and conversions move together over time.
 
 ---
 
 # 🤖 Machine Learning
 
-## Linear Regression
+## Linear Regression Model
 
-The model predicts:
+A Linear Regression model was built to predict:
 
-> Expected Conversions based on Ad Clicks
+> Expected Conversions based on Advertisement Clicks
 
-### Evaluation Metrics
+### Model Evaluation
+
+Metrics Used:
 
 - R² Score
 - Mean Squared Error (MSE)
+
+The model helps estimate future conversion performance from campaign engagement data.
 
 ---
 
 # 🔍 Key Insights
 
-✔ Facebook generated stronger conversion performance.
+### Facebook Outperformed AdWords
 
-✔ Higher click volume generally resulted in higher conversions.
+Facebook generated stronger conversion performance and showed better click-to-conversion effectiveness.
 
-✔ Weekly conversion patterns remained relatively stable.
+### Clicks Strongly Influence Conversions
 
-✔ Monthly trends revealed seasonal fluctuations.
+A strong positive relationship exists between advertisement clicks and conversions.
 
-✔ Cost-per-conversion varied significantly across months.
+### Stable Weekly Conversion Behaviour
 
-✔ Linear Regression successfully modelled conversion behaviour.
+Weekly conversion trends remained relatively consistent throughout the campaign period.
+
+### Monthly Performance Variations
+
+Monthly conversion counts revealed seasonal fluctuations and campaign effectiveness changes.
+
+### Cost Efficiency Changes Over Time
+
+Cost-per-conversion varied significantly across months, indicating changing advertising efficiency.
+
+### Regression Successfully Modelled Conversions
+
+Linear Regression effectively captured the relationship between clicks and conversions.
 
 ---
 
-## 🚀 How To Run
+# 🚀 How To Run
 
-### Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/mukherjeesourav687/marketing-campaign-analysis-python.git
 ```
 
-### Navigate
+## Navigate To Project
 
 ```bash
 cd marketing-campaign-analysis-python
 ```
 
-### Install Dependencies
+## Create Virtual Environment
 
 ```bash
-pip install -r requirements.txt
+python -m venv venv
 ```
 
-### Launch Notebook
+## Activate Virtual Environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Mac/Linux
+
+```bash
+source venv/bin/activate
+```
+
+## Install Dependencies
+
+```bash
+pip install pandas numpy matplotlib seaborn scipy statsmodels scikit-learn notebook
+```
+
+## Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
+Open:
+
+```text
+notebooks/main.ipynb
+```
+
 ---
 
-## 👨‍💻 Author
+# 🎓 Skills Demonstrated
 
-### Sourav Mukherjee
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Statistical Testing
+- Correlation Analysis
+- Data Visualization
+- Machine Learning
+- Business Analytics
+- Time Series Analysis
+- Python Programming
+- Problem Solving
+
+---
+
+# 👨‍💻 Author
+
+## Sourav Mukherjee
 
 Data Analyst | SQL | Python | Power BI | Excel
 
-📌 Passionate about transforming raw data into actionable insights.
+Passionate about transforming data into meaningful business insights through analytics, statistics, and machine learning.
+
+### Connect With Me
+
+- LinkedIn: https://www.linkedin.com/in/mukherjeesourav687
+- GitHub: https://github.com/mukherjeesourav687
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
 If you found this project useful:
 
@@ -268,7 +364,7 @@ If you found this project useful:
 
 🍴 Fork the repository
 
-📢 Share with fellow data enthusiasts
+📢 Share it with fellow data enthusiasts
 
 ---
 
