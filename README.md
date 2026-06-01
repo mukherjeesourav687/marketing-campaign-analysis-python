@@ -1,4 +1,8 @@
-<p align="center"> # 📊 Marketing Campaign Analysis using Python </p>
+<h1 align="center">📊 Marketing Campaign Analysis using Python</h1>
+
+<p align="center">
+  Comparing Facebook and AdWords Campaign Performance using EDA, Statistics, and Machine Learning
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python">
