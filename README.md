@@ -119,53 +119,53 @@ marketing-campaign-analysis-python/
 
 ---
 
-# 📈 Visualizations
-
 ## Facebook Click & Conversion Distribution
 
-![Facebook Distribution](images/facebook_ad_histograms.png)
-
----
+<p align="center">
+  <img src="./images/facebook_ad_histograms.png" width="800">
+</p>
 
 ## AdWords Click & Conversion Distribution
 
-![AdWords Distribution](images/adwords_ad_histograms.png)
-
----
+<p align="center">
+  <img src="./images/adwords_ad_histograms.png" width="800">
+</p>
 
 ## Conversion Category Comparison
 
-![Conversion Category](images/conversion_category_frequency.png)
-
----
+<p align="center">
+  <img src="./images/conversion_category_frequency.png" width="800">
+</p>
 
 ## Clicks vs Conversions
 
-![Clicks vs Conversions](images/clicks_vs_conversions_scatter.png)
-
----
+<p align="center">
+  <img src="./images/clicks_vs_conversions_scatter.png" width="800">
+</p>
 
 ## Weekly Conversion Trend
 
-![Weekly Conversion](images/weekly_conversions.png)
-
----
+<p align="center">
+  <img src="./images/weekly_conversions.png" width="800">
+</p>
 
 ## Monthly Conversion Trend
 
-![Monthly Conversion](images/monthly_conversions.png)
-
----
+<p align="center">
+  <img src="./images/monthly_conversions.png" width="800">
+</p>
 
 ## Monthly Cost Per Conversion
 
-![Monthly CPC](images/monthly_cost_per_conversion.png)
-
----
+<p align="center">
+  <img src="./images/monthly_cost_per_conversion.png" width="800">
+</p>
 
 ## Linear Regression Model
 
-![Regression](images/facebook_clicks_vs_conversions_regression.png)
+<p align="center">
+  <img src="./images/facebook_clicks_vs_conversions_regression.png" width="800">
+</p>
 
 ---
 
